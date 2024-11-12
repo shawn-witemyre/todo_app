@@ -11,13 +11,17 @@
 <script setup></script>
 
 <style scoped>
-main {
+header {
+  text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-header {
-  display: flex;
+header h1 {
+  margin-right: 25px;
+}
+
+header img {
+  max-width: 50px;
 }
 </style>
