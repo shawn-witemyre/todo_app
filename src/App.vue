@@ -54,6 +54,16 @@ header h1 {
   color: #777;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+nav button {
+  margin: 10px 10px;
+}
+
 .task-list {
   max-width: 640px;
   margin: 20px auto;
