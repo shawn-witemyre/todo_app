@@ -59,6 +59,11 @@ header h1 {
   color: #777;
 }
 
+.new-task-form {
+  display: flex;
+  justify-content: center;
+}
+
 nav {
   display: flex;
   justify-content: center;
