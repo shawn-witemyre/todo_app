@@ -6,7 +6,10 @@
         >delete
       </i>
 
-      <i class="material-icons" @click="taskStore.toggleFavorite(task.id)"
+      <i
+        class="material-icons"
+        :class="{ isFavorite: task.isFavorite }"
+        @click="taskStore.toggleFavorite(task.id)"
         >favorite</i
       >
     </div>
@@ -36,5 +39,9 @@ const taskStore = useTaskStore();
 .task i {
   cursor: pointer;
   color: #bbb;
+}
+
+i.isFavorite {
+  color: red;
 }
 </style>
