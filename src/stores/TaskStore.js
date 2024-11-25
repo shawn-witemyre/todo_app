@@ -25,7 +25,7 @@ export const useTaskStore = defineStore("taskStore", {
       const data = await response.json();
 
       this.tasks = data;
-      this.loading = false;
+      this.isLoading = false;
     },
     async addTask(task) {
       this.tasks.push(task);
