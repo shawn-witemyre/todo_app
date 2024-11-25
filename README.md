@@ -12,7 +12,7 @@ This is a simple todo app that you can add and delete tasks.
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compile
 
 ```sh
 npm run dev
